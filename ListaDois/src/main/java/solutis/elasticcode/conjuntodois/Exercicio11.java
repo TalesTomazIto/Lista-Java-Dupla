@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntodois;
 
 import java.util.Scanner;
 
-public class VotosEleicao {
+public class Exercicio11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite sua idade: ");

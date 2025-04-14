@@ -3,7 +3,7 @@ package solutis.elasticcode.conjuntoum;
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-public class Idade {
+public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

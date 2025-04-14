@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntoum;
 
 import java.util.Scanner;
 
-public class MediaAluno {
+public class Exercicio04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Insira suas 4 notas:");

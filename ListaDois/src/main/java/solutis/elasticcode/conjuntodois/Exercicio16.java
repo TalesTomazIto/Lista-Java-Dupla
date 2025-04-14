@@ -2,13 +2,14 @@ package solutis.elasticcode.conjuntodois;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
-public class AniversarioValido {
+public class Exercicio16 {
 
-    public boolean dataValida(int mes, int dia) {
+    public boolean dataValida(int ano, int mes, int dia) {
         try {
-            LocalDate.of(LocalDate.now().getYear(), mes, dia);
+            LocalDate.of(ano, mes, dia);
             return true;
         } catch (DateTimeException e) {
             return false;
@@ -56,9 +57,12 @@ public class AniversarioValido {
         System.out.println("Digite o mes do seu aniversário: ");
         int mes = sc.nextInt();
 
+        System.out.println("Digite seu ano de nascimento:");
+        int ano = sc.nextInt();
+
         if ((mes > 0 && mes < 13) || (dia > 0 && dia < 32)) {
 
-            if (validar.dataValida(mes, dia)) {
+            if (validar.dataValida(ano, mes, dia)) {
                 System.out.println("A data " + dia + " de " + validar.nomeMes(mes) + " é uma data válida");
             } else {
                 System.out.println("Data inválida");
@@ -77,5 +81,7 @@ public class AniversarioValido {
         } else {
             System.out.println("Você faz aniversário no 4° Trimestre");
         }
+
+
     }
 }

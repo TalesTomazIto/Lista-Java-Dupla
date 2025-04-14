@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntodois;
 
 import java.util.Scanner;
 
-public class AlunoAprovacao {
+public class Exercicio12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Insira suas 4 notas:");
@@ -22,13 +22,7 @@ public class AlunoAprovacao {
             System.out.println("Infelizmente você foi reprovado.");
         } else {
             System.out.println("Você deverá fazer a recuperação.");
-            System.out.println("Qual a nota da sua prova final?");
-            double notaFinal = sc.nextDouble();
-            if (notaFinal>= 5) {
-                System.out.println("Parabens, você foi aprovado");
-            } else {
-                System.out.println("Infelizmente você será reprovado.");
-            }
+
         }
 
     }

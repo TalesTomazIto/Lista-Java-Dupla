@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntodois;
 
 import java.util.Scanner;
 
-public class NumeroRacional {
+public class Exercicio08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

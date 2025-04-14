@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntoum;
 
 import java.util.Scanner;
 
-public class Salario {
+public class Exercicio02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite seu salário:");
