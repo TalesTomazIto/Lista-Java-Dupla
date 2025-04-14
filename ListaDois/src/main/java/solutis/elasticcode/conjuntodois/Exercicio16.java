@@ -49,7 +49,7 @@ public class Exercicio16 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        AniversarioValido validar = new AniversarioValido();
+        Exercicio16 validar = new Exercicio16();
 
         System.out.println("Digite o dia do seu aniversário: ");
         int dia = sc.nextInt();
