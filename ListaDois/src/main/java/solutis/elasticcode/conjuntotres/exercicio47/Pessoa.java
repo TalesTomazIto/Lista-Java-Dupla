@@ -2,7 +2,7 @@ package solutis.elasticcode.conjuntotres.exercicio47;
 
 public class Pessoa {
     public String nome;
-    public char sexo;
+    public String sexo;
     public Double peso;
     public Integer idade;
     public Double altura;
@@ -10,7 +10,7 @@ public class Pessoa {
     public Pessoa() {
     }
 
-    public Pessoa(String nome, char sexo, Double peso, Integer idade, Double altura) {
+    public Pessoa(String nome, String sexo, Double peso, Integer idade, Double altura) {
         this.nome = nome;
         this.sexo = sexo;
         this.peso = peso;
@@ -26,11 +26,11 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public char getSexo() {
+    public String getSexo() {
         return sexo;
     }
 
-    public void setSexo(char sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
